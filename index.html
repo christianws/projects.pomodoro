@@ -1,0 +1,73 @@
+---
+title: Kristian Walker
+---
+<!-- header -->
+{% include header-meta_project.html %} 
+<!-- project specific meta data-->
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</head>
+<div id="page-wrapper">
+<body>
+{% include header.html %}
+
+
+	<div class="screen">
+		<div class="vertical-align">
+				<div id="pom_con">
+						<h1>
+						Pomodoro
+						</h1>
+
+						<div id="time">
+						0:25
+						</div>
+
+						<div id="buttons-con">
+							<button  id="start_stop" class="pom-button start">start</button>
+							<button  id="reset" class="pom-button" style="float:right;">reset</button>
+						</div>
+						
+						<p>
+						<form><label><input type="checkbox" name="checkbox" id="audio-check" value="value" checked>click if you want an audio alarm</label></form>
+						</p>
+						<div id ="status-dis">in session no. 1</div>
+						<div id="settings-con">
+							<div class="setting-con">
+								break time <br>
+								<div class="setting">
+									<div id="minus_break_timer" class="op">-</div>
+									<div id="break_timer">5</div>
+									<div id="add_break_timer" class="op">+</div>
+								</div>
+							</div>
+							<div class="setting-con" style="float:right;">
+								session length <br>
+								<div class="setting">
+									<div id="minus_session_timer" class="op">-</div>
+									<div id="session_timer">25</div>
+									<div id="add_session_timer" class="op">+</div>
+								</div>
+							</div>
+						</duv>
+
+						<div id="bulb">
+							<div id="bulb-mask"></div>
+							<div id="bulb-contents"></div>
+						</div>
+						<div id="mug"><div id="mug-contents"></div></div>
+					
+
+						
+
+						<div class="clear"></div>
+
+				
+				</div>
+		
+			</div>
+		</div>
+	</div><!-- end of screen -->
+
+{% include footer.html %}
